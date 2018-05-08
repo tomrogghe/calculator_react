@@ -1,5 +1,36 @@
+
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background-color: #000000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.viewport {
+  margin:auto;
+  width: 160px;
+  text-align: center;
+  background-color: #ffffff71;
+  border: 1px solid #333;
+  border-radius: 15px;
+}
+
+input {
+  width: 119px;
+  height: 22px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  padding: 0px 15px;
+}
+
+button{
+  color: rgb(118, 131, 131);
+  text-shadow: darkslategray;
+  border-radius: 12px;
+  border: 1px solid rgb(170, 170, 170);
+  width: 35px;
+  height: 35px;
+  margin: 2px;
+  font-size: 13px;
+  text-align: center;
 }
