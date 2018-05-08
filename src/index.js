@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Calculator from './calculator.js';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Calculator />, document.getElementById('root'));
